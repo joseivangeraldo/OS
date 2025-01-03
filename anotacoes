@@ -1,0 +1,13 @@
+Tenho ampla experiência na área fabril de diversos seguimentos industriais. Gostaria de uma oportunidade para estreitarmos os laços desta negociação.
+
+ -v app-dados:/app/dados 
+
+docker run -it --rm -e "BOOT=http://example.com/image.iso" -p 8006:8006 -v /var/qemu:/storage --device=/dev/kvm -- device=/dev/net/tun --cap-add NET_ADMIN qemux/qemu-docker
+
+qemu-system-x86_64 -drive format=raw,file=boot_sect.bin
+
+
+
+qemu-system-x86_64 -m 2G -hda your_disk_image.img -cdrom your_iso_image -boot d
+Unable to init server: Could not connect: Connection refused
+qemu-system-x86_64: -hda your_disk_image.img: Could not open 'your_disk_image.img': No such file or directory
